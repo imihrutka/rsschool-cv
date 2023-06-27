@@ -1,5 +1,7 @@
 # Mikhail Torohov
 
+![](https://avatars.githubusercontent.com/u/132136769?s=150)
+
 ## Contacts
 **Phone**: +79209095548  
 **E-mail**: dbepka@gmail.com  
