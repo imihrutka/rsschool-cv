@@ -23,8 +23,9 @@ At the moment I work as a web developer in a large wholesale and manufacturing c
 * Git, GitHub
 * VS Code, Sublime Text
 * Adobe Photoshop, InScape
+
 ## Code example
-```
+```javascript
 function multiply(a, b){
   return a * b
 }
@@ -32,6 +33,7 @@ function multiply(a, b){
 let result = multiply(2, 2);
 alert( result );
 ```
+
 ## Work experience
 Developed several websites from scratch (design, layout, CMS integration).  
 Now I work in a large wholesale and manufacturing company as a web developer.  
