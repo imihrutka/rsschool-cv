@@ -3,10 +3,11 @@
 ![](https://avatars.githubusercontent.com/u/132136769?s=150)
 
 ## Contacts
-**Phone**: +79209095548  
-**E-mail**: dbepka@gmail.com  
-**GitHub**: https://github.com/imihrutka  
+**Phone**: [+79209095548](tel:+79209095548)  
+**E-mail**: [dbepka@gmail.com](mailto:dbepka@gmail.com)  
+**GitHub**: [https://github.com/imihrutka](https://github.com/imihrutka)  
 **Telegram**: [@imihrutka](https://t.me/imihrutka)  
+**Discord**: Mihail Torohov (@imihrutka)  
 
 ## About me
 I started my career in web development at one of my previous jobs. There it was necessary to develop an organization's website and it is desirable to do it for free. I have always been interested in how websites are made and I offered my services.  
@@ -23,14 +24,14 @@ At the moment I work as a web developer in a large wholesale and manufacturing c
 * VS Code, Sublime Text
 * Adobe Photoshop, InScape
 ## Code example
-~~~javascript
+```
 function multiply(a, b){
   return a * b
 }
 
 let result = multiply(2, 2);
 alert( result );
-~~~
+```
 ## Work experience
 Developed several websites from scratch (design, layout, CMS integration).  
 Now I work in a large wholesale and manufacturing company as a web developer.  
