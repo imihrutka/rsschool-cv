@@ -1,5 +1,5 @@
 :root {
-  --main-font-family: 'Noto Sans', sans-serif;
+  --main-font-family: 'Montserrat', sans-serif;
   --second-font-family: 'Roboto Slab', sans-serif;
   --body-font-size: 14px;
   --body-font-weight: 400;
@@ -23,6 +23,7 @@ img {
 h1, h2 {
   margin: 0;
 }
+
 body {
   font-family: var(--main-font-family);
   color: var(--body-color);
@@ -66,11 +67,14 @@ body {
 }
 
 .person__post {
-  font-size: 22px;
+  margin-top: 15px;
+  padding-top: 20px;
+  border-top: 5px solid #dadada;
+  font-size: 20px;
   font-weight: 500;
+  color: #888;
   letter-spacing: 4px;
   text-transform: capitalize;
-  color: #888;
 }
 
 .person__photo {
@@ -83,3 +87,4 @@ body {
   height: 200px;
   border-radius: 50%;
 }
+
