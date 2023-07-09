@@ -36,6 +36,10 @@ a {
   color: var(--body-link-color);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--main-font-family);
   color: var(--body-color);
