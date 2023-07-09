@@ -21,7 +21,8 @@ img {
   max-width: 100%;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin: 0 0 15px 0;
 }
 
@@ -66,15 +67,15 @@ body {
   margin: 0;
   list-style: none;
   margin-bottom: 20px;
- }
+}
 
- .dashed-list > li {
+.dashed-list>li {
   position: relative;
   padding-left: 20px;
   margin: 10px 0;
- }
+}
 
-.dashed-list > li:before {
+.dashed-list>li:before {
   position: absolute;
   content: "\2014";
   left: 0;
@@ -99,16 +100,28 @@ body {
 
 .main-menu__list {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -5px;
+}
+
+.main-menu__item {
+  padding: 0 5px;
+}
+
+.main-menu__item:first-child {
+  margin-left: 0;
 }
 
 .main-menu__item-link {
+  display: block;
   padding: 10px 15px;
   background: #efefef;
   border-radius: 25px;
   font-weight: 700;
   transition: opacity 0.15s;
 }
+
+
 
 .main-menu__item-link:hover {
   opacity: 0.8;
@@ -163,7 +176,7 @@ body {
   justify-content: center;
 }
 
-.person__photo > img {
+.person__photo>img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -176,7 +189,8 @@ body {
 .contacts-list__item {
   position: relative;
   padding-left: 35px;
-  line-height: 40px;;
+  line-height: 40px;
+  ;
 }
 
 .contacts-list__item::before {
@@ -198,6 +212,7 @@ body {
 .contacts-list__item--phone::before {
   background-image: url(../images/icon-phone.svg);
 }
+
 .contacts-list__item--email::before {
   background-image: url(../images/icon-email.svg);
 }
@@ -213,7 +228,7 @@ body {
   color: #fff;
 }
 
-.courses-list.dashed-list > li:before {
+.courses-list.dashed-list>li:before {
   color: #000;
 }
 
@@ -227,7 +242,7 @@ body {
 }
 
 
-.work-experience > .dashed-list > li:before {
+.work-experience>.dashed-list>li:before {
   color: #000;
 }
 
@@ -248,9 +263,11 @@ body {
 .footer-socials-list__item {
   margin-right: 20px;
 }
+
 .footer-socials-list__item:last-child {
   margin-right: 0;
 }
+
 .footer-socials-list__item-link {
   display: block;
   width: 30px;
