@@ -1,12 +1,12 @@
 :root {
   --main-font-family: 'Montserrat', sans-serif;
-  --second-font-family: 'Roboto Slab', sans-serif;
+  --second-font-family: 'Montserrat', sans-serif;
   --body-font-size: 14px;
   --body-font-weight: 400;
   --body-color: #000;
   --body-bg-color: #fff;
   --body-line-height: 1.45;
-  --body-link-color: #fff;
+  --body-link-color: #000;
   --sidebar-link-color: #fff;
   --container-width: 1200px;
 }
@@ -45,6 +45,43 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb40 {
+  margin-bottom: 30px;
+}
+
+.dashed-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 20px;
+ }
+
+ .dashed-list > li {
+  position: relative;
+  padding-left: 20px;
+  margin: 10px 0;
+ }
+
+.dashed-list > li:before {
+  position: absolute;
+  content: "\2014";
+  left: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
@@ -76,6 +113,10 @@ body {
 .header__col--person,
 .main__col--content {
   width: 70%;
+}
+
+.main__col--content a {
+  color: var(--body-link-color);
 }
 
 .person__title {
@@ -138,4 +179,81 @@ body {
 }
 .contacts-list__item--email::before {
   background-image: url(../images/icon-email.svg);
+}
+
+.education-list__item-date {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 4px;
+  background: #000;
+  color: #fff;
+}
+
+.courses-list.dashed-list > li:before {
+  color: #000;
+}
+
+.languages-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.languages-list__item {
+  line-height: 30px;
+}
+
+
+.work-experience > .dashed-list > li:before {
+  color: #000;
+}
+
+.footer {
+  margin: 40px;
+}
+
+.footer-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-socials-list {
+  display: flex;
+}
+
+.footer-socials-list__item {
+  margin-right: 20px;
+}
+.footer-socials-list__item:last-child {
+  margin-right: 0;
+}
+.footer-socials-list__item-link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-socials-list__item-link--github {
+  background-image: url(../images/icon-github.svg);
+}
+
+.footer-socials-list__item-link--vk {
+  background-image: url(../images/icon-vk.svg);
+}
+
+.footer-socials-list__item-link--telegram {
+  background-image: url(../images/icon-telegram.svg);
+}
+
+.footer-rsschool__link {
+  display: block;
+  width: 80px;
+  height: 30px;
+  background: url(../images/icon-rsschool.svg) 0 0 no-repeat;
 }
