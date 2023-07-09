@@ -93,6 +93,27 @@ body {
   box-shadow: 0 5px 50px rgb(0 0 0 / 10%);
 }
 
+.main-menu {
+  margin-bottom: 30px;
+}
+
+.main-menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu__item-link {
+  padding: 10px 15px;
+  background: #efefef;
+  border-radius: 25px;
+  font-weight: 700;
+  transition: opacity 0.15s;
+}
+
+.main-menu__item-link:hover {
+  opacity: 0.8;
+}
+
 .header,
 .main {
   display: flex;
