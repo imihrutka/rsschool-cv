@@ -31,7 +31,7 @@
         </header>
         <main class="main">
           <aside class="main__col main__col--sidebar">
-            <section class="contants mb40">
+            <section class="contants mb40" id="contacts">
               <h2 class="contants__title">Contacts</h2>
               <ul class="contacts-list">
                 <li class="contacts-list__item contacts-list__item--location"><a
@@ -42,7 +42,7 @@
                     target="_blank">dbepka@gmail.com</a></li>
               </ul>
             </section>
-            <section class="skills mb40">
+            <section class="skills mb40" id="skills">
               <h2 class="skills__title">Skills</h2>
               <ul class="skills-list dashed-list">
                 <li class="skills-list__item">HTML</li>
@@ -54,7 +54,7 @@
                 <li class="skills-list__item">Adobe Photoshop, InScape</li>
               </ul>
             </section>
-            <section class="languages mb40">
+            <section class="languages mb40" id="languages">
               <h2 class="languages__title">Languages</h2>
               <ul class="languages-list">
                 <li class="languages-list__item">Russian - native language</li>
@@ -65,20 +65,23 @@
           <div class="main__col main__col--content">
             <nav class="main-menu">
               <ul class="main-menu__list">
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#contacts">Contacts</a></li>
                 <li class="main-menu__item"><a class="main-menu__item-link" href="#about">About</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#skills">Skills</a></li>
                 <li class="main-menu__item"><a class="main-menu__item-link" href="#education">Education</a></li>
-                <li class="main-menu__item"><a class="main-menu__item-link" href="#code">Code example</a></li>
-                <li class="main-menu__item"><a class="main-menu__item-link" href="#work">Work experience</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#code">Code</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#work">Work</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#languages">Languages</a></li>
               </ul>
             </nav>
-            <section class="about mb40">
+            <section class="about mb40" id="about">
               <h2 class="about__title">About me</h2>
               <p>I started my career in web development at one of my previous jobs. There it was necessary to develop an
                 organization’s website and it is desirable to do it for free. I have always been interested in how
                 websites are made and I offered my services.</p>
               <p>At the moment I work as a web developer in a large wholesale and manufacturing company.</p>
             </section>
-            <section class="education mb40">
+            <section class="education mb40" id="education">
               <h2 class="education__title">Education</h2>
               <ul class="education-list">
                 <li class="education-list__item">
@@ -106,7 +109,7 @@
                 </ul>
               </section>
             </section>
-            <section class="code-example">
+            <section class="code-example" id="code">
               <h2 class="code-example__title">Code example</h2>
               <pre><code class="language-js">function multiply(a, b) {
   return a * b
@@ -116,7 +119,7 @@ let result = multiply(2, 2);
 alert( result );
 </code></pre>
             </section>
-            <section class="work-experience">
+            <section class="work-experience" id="work">
               <h2>Work experience</h2>
               <p>Developed several websites from scratch (design, layout, CMS integration).</p>
               <p>Now I work in a large wholesale and manufacturing company as a web developer.</p>
