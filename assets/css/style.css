@@ -112,6 +112,30 @@ body {
 }
 
 .contacts-list__item {
-  padding-left: 50px;
-  line-height: 40px;
+  position: relative;
+  padding-left: 35px;
+  line-height: 40px;;
+}
+
+.contacts-list__item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: translateY(50%);
+}
+
+.contacts-list__item--location::before {
+  background-image: url(../images/icon-location.svg);
+}
+
+.contacts-list__item--phone::before {
+  background-image: url(../images/icon-phone.svg);
+}
+.contacts-list__item--email::before {
+  background-image: url(../images/icon-email.svg);
 }
