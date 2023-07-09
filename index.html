@@ -1,9 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikhail Torohov - CV RSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <link rel="stylesheet" href="./assets/css/normalize.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body></body>
+
+<body>
+  <div class="main-wrapper">
+    <div class="container">
+      <div class="cv-wrapper">
+        <header class="header">
+          <div class="header__col header__col--photo">
+            <div class="person__photo">
+              <img src="./assets/images/photo.jpg" alt="Mikhail Torohov">
+            </div>
+          </div>
+          <div class="header__col header__col--person">
+            <h1 class="person__title">Mikhail <br><span>Torohov</span></h1>
+            <div class="person__post">Web developer</div>
+          </div>
+        </header>
+        <main class="main">
+          <aside class="main__col main__col--sidebar">
+            <section class="contants mb40" id="contacts">
+              <h2 class="contants__title">Contacts</h2>
+              <ul class="contacts-list">
+                <li class="contacts-list__item contacts-list__item--location"><a
+                    href="https://goo.gl/maps/Y2Ui9AtZtJGGaMw66" target="_blank">Russia, Vladimir</a></li>
+                <li class="contacts-list__item contacts-list__item--phone"><a href="tel:+79209095548" target="_blank">+7
+                    (920) 909-55-48</a></li>
+                <li class="contacts-list__item contacts-list__item--email"><a href="mailto:dbepka@gmail.com"
+                    target="_blank">dbepka@gmail.com</a></li>
+              </ul>
+            </section>
+            <section class="skills mb40" id="skills">
+              <h2 class="skills__title">Skills</h2>
+              <ul class="skills-list dashed-list">
+                <li class="skills-list__item">HTML</li>
+                <li class="skills-list__item">CSS (Bootstrap, SASS/SCSS, BEM)</li>
+                <li class="skills-list__item">JavaScript (Basic)</li>
+                <li class="skills-list__item">PHP</li>
+                <li class="skills-list__item">Git, GitHub</li>
+                <li class="skills-list__item">VS Code, Sublime Text</li>
+                <li class="skills-list__item">Adobe Photoshop, InScape</li>
+              </ul>
+            </section>
+            <section class="languages mb40" id="languages">
+              <h2 class="languages__title">Languages</h2>
+              <ul class="languages-list">
+                <li class="languages-list__item">Russian - native language</li>
+                <li class="languages-list__item">English - A2</li>
+              </ul>
+            </section>
+          </aside>
+          <div class="main__col main__col--content">
+            <nav class="main-menu">
+              <ul class="main-menu__list">
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#contacts">Contacts</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#about">About</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#skills">Skills</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#education">Education</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#code">Code</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#work">Work</a></li>
+                <li class="main-menu__item"><a class="main-menu__item-link" href="#languages">Languages</a></li>
+              </ul>
+            </nav>
+            <section class="about mb40" id="about">
+              <h2 class="about__title">About me</h2>
+              <p>I started my career in web development at one of my previous jobs. There it was necessary to develop an
+                organization’s website and it is desirable to do it for free. I have always been interested in how
+                websites are made and I offered my services.</p>
+              <p>At the moment I work as a web developer in a large wholesale and manufacturing company.</p>
+            </section>
+            <section class="education mb40" id="education">
+              <h2 class="education__title">Education</h2>
+              <ul class="education-list">
+                <li class="education-list__item">
+                  <div class="education-list__item-date">2006 - 2012</div>
+                  <div class="education-list__item-desc">Graduated from Vladimir State University with a degree in
+                    Computing Machines, Complexes, Systems and Networks. Qualified as an engineer.</div>
+                </li>
+                <li class="education-list__item"></li>
+                <li class="education-list__item"></li>
+              </ul>
+              <section class="courses">
+                <h3>Courses</h3>
+                <ul class="courses-list dashed-list">
+                  <li class="courses-list__item">
+                    <div class="courses-list__item-desc">
+                      <a class="courses-list__item-link" href="https://learn.javascript.ru/"
+                        target="_blank">learn.javascript.ru</a>
+                    </div>
+                  </li>
+                  <li class="courses-list__item">
+                    <div class="courses-list__item-desc">
+                      <a class="courses-list__item-link" href="https://htmlacademy.ru/" target="_blank">HTLM Academy</a>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+            </section>
+            <section class="code-example" id="code">
+              <h2 class="code-example__title">Code example</h2>
+              <pre><code class="language-js">function multiply(a, b) {
+  return a * b
+}
+
+let result = multiply(2, 2);
+alert( result );
+</code></pre>
+            </section>
+            <section class="work-experience" id="work">
+              <h2>Work experience</h2>
+              <p>Developed several websites from scratch (design, layout, CMS integration).</p>
+              <p>Now I work in a large wholesale and manufacturing company as a web developer.</p>
+              <p>My projects can be viewed at the following links:</p>
+              <ul class="dashed-list">
+                <li><a href="https://valfex.ru" target="_blank">valfex.ru</a></li>
+                <li><a href="https://teploset33.ru" target="_blank">teploset33.ru</a></li>
+                <li><a href="https://gidromarket33.ru" target="_blank">gidromarket33.ru</a></li>
+                <li><a href="http://shishov.pro" target="_blank">shishov.pro</a></li>
+              </ul>
+            </section>
+          </div>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footer-line">
+          <div class="footer-copyright">&copy; 2023 Made by Mikhail Torohov</div>
+          <div class="footer-socials">
+            <ul class="footer-socials-list">
+              <li class="footer-socials-list__item">
+                <a class="footer-socials-list__item-link footer-socials-list__item-link--github"
+                  href="https://github.com/imihrutka" target="_blank"></a>
+              </li>
+              <li class="footer-socials-list__item">
+                <a class="footer-socials-list__item-link footer-socials-list__item-link--telegram"
+                  href="https://t.me/imihrutka" target="_blank"></a>
+              </li>
+              <li class="footer-socials-list__item">
+                <a class="footer-socials-list__item-link footer-socials-list__item-link--vk"
+                  href="https://vk.com/imihrutka" target="_blank"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-rsschool">
+            <a class="footer-rsschool__link" href="https://rs.school/js-stage0/" target="_blank"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+
 </html>
